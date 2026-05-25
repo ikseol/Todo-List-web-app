@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="js-title">나의 TODO 리스트</h1>
+
+    <input type="text" class="js-todo-name" onkeydown="handleKeyDown(event)" placeholder="할 일 입력">
+    <button onclick="addTodo()" class="js-todo-add-button">할 일 등록</button>
+    <hr>
+    <div class="js-todoList">
+        이곳에 할 일 목록 업데이트 예정
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
