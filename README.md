@@ -1,4 +1,4 @@
-# Todo-List-web-app
+# todo-list-js
 * todo리스트 웹 앱 과제
 
 ## 실행 방법
